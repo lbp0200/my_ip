@@ -29,8 +29,8 @@ Demo
 ---
 （推荐使用）
 
-https://ip.liuboping.win:1443/ip
+https://ip.liuboping.win:1443/my_ip
 
 （不推荐）
 
-https://ip.liuboping.win/ip
+https://ip.liuboping.win/my_ip
