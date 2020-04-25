@@ -14,4 +14,5 @@ Restart=always
 LimitNOFILE=65535
 
 Environment="MY_LISTEN=127.0.0.1:7000"
+Environment="GIN_MODE=release"
 Environment="GEO_FILE=/usr/share/GeoIP/GeoLite2-City.mmdb"
