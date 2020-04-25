@@ -1,0 +1,17 @@
+[Install]
+WantedBy=multi-user.target
+
+[Unit]
+Description=Show IP Info Web App
+Requires=network.target
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/www/my-ip/
+ExecStart=/opt/www/my-ip/my_ip
+Restart=always
+LimitNOFILE=65535
+
+Environment="MY_LISTEN=127.0.0.1:7000"
+Environment="GEO_FILE=/usr/share/GeoIP/GeoLite2-City.mmdb"
