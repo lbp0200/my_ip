@@ -9,7 +9,7 @@ After=network.target
 [Service]
 Type=simple
 WorkingDirectory=/opt/www/my-ip/
-ExecStart=/opt/www/my-ip/my_ip
+ExecStart=/opt/www/my-ip/linux_64_my_ip
 Restart=always
 LimitNOFILE=65535
 

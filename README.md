@@ -35,3 +35,7 @@ https://ip.liuboping.win:1443/my_ip
 （不推荐）
 
 https://ip.liuboping.win/my_ip
+
+备注
+---
+因为golang的原因，不支持CentOS5
